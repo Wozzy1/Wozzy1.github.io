@@ -1,11 +1,12 @@
-.main-text-box-two-col {
+.main-text-box-three-col {
     margin: 2em 15%;
     border-radius: 25px;
     background-color: #ffc7ce;
-    padding: 5px 5px 5px 20px;
-    height: 250px;
+    padding: 5px 20px 20px 20px;
+    height: auto;
     display: grid;
-    grid-template-columns: 0.55fr 0.25fr;
+    grid-template-columns: 0.48fr auto 0.48fr;
+    overflow: hidden;
 }
 
 .main-text-box {

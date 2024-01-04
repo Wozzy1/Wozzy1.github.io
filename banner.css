@@ -2,11 +2,12 @@
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     border-bottom: 3px solid grey;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
 
 }
 
 .banner-item {
-    padding: 5% 5%;
+    padding: 5% 5% 10% 5%;
     font-size: 20px;
 
 }
