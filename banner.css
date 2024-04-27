@@ -1,4 +1,4 @@
-.banner {
+/* .banner {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     border-bottom: 3px solid grey;
@@ -10,14 +10,24 @@
     padding: 5% 5% 10% 5%;
     font-size: 20px;
 
-}
+} */
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .banner-item {
+    margin: 0;
+  }
 
 /* Normal state styles for buttons */
 button {
     box-shadow: inset 0 0 0 0 #54b3d6;
     color: #54b3d6;
-    padding: 0 .25rem;
-    margin: 0 -.25rem;
+    /* padding: 0 .25rem;
+    margin: 0 -.25rem; */
+    padding: 1rem 2rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     cursor: pointer; /* Add cursor pointer for better UX */
     border: none; /* Remove default button border */
