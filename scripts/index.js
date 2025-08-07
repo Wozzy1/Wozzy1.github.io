@@ -4,7 +4,7 @@ function deetsOnClick() {
 }
 
 // inject navbar component 
-fetch("../components/navbar.html")
+fetch("./components/navbar.html")
     .then(file => file.text())
     .then(text => document.getElementById("navbar").innerHTML = text);
 
